@@ -1,0 +1,117 @@
+.container{
+    margin: 20px;
+}
+
+
+img{
+    height: 600px;
+    width: 600px;
+    margin-left: 150px;
+    margin-top: 30px;
+    
+
+}
+h1{
+    text-align: center;
+    background-color: rgb(36, 2, 90);
+    color: tomato;
+    font-size: 45px;
+}
+body{
+    background-color: rgba(25, 117, 64, 0.877);
+}
+
+h3{
+    color:whitesmoke;
+    font-size:30px;
+    margin:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mb-1 {
+    color:rgb(255, 127, 212);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    /* text-align: center; */
+    margin-left: 780px;
+    color: cornflowerblue;
+    font-size: 30px;
+   
+}
+.card-body{
+    display: flex;
+}
+.box{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+ /* Media quary */
+
+@media only screen and (max-width: 460px) {
+    body {
+      background-color:burlywood;
+    }
+    h1{
+        width:100%;
+        color:blue
+    }
+    h3{
+        width:100%;
+        color: brown;
+    }
+    img{
+        
+        flex-wrap: wrap;
+        margin-right:120px;
+        width:100%;
+       
+   }
+    button{
+        margin: 20px;
+        justify-content: center;
+        
+    }
+    .card-body{
+        width: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+   
+
+  }
+
+  @media (min-width:461px) and (max-width:1024px) {
+    body {
+      background-color:cadetblue
+    }
+    h1{
+      width: 100%;
+      color: aqua;
+    }
+    h3{
+        width: 100%;
+        color: black;
+    }
+    img{
+        flex-wrap: wrap;
+        margin-left:20px;
+    }
+    button{
+       flex-wrap: wrap;
+        width: 200px;
+        margin-left:40% ;
+    }
+    .card-body{
+        width: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+  }
